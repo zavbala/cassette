@@ -1,0 +1,87 @@
+@import "./faces.css";
+
+:root {
+  --biscay: #1e3264;
+  --blue-zodiac: #152956;
+  --sulu: #cdf564;
+}
+
+::selection {
+  background-color: var(--sulu);
+  color: var(--blue-zodiac)
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  font-family: "Circular", Arial, Helvetica, sans-serif;
+  user-select: none;
+  /* outline: red solid 2px; */
+}
+
+body {
+  background: var(--biscay);
+  height: 100vh;
+}
+
+small {
+  display: block;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+button,
+select {
+  background-color: transparent;
+  border: none;
+  appearance: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  color: var(--sulu);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--blue-zodiac);
+}
+
+a {
+  color: var(--sulu);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Mixins */
+
+.apart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

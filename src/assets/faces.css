@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Circular";
+  font-style: normal;
+  src: url("/fonts/CircularSpotifyText-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Circular";
+  font-style: normal;
+  src: url("/fonts/CircularSpotifyText-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Circular";
+  font-style: normal;
+  src: url("/fonts/CircularSpotifyText-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Circular";
+  font-style: normal;
+  src: url("/fonts/CircularSpotifyText-Black.woff2") format("woff2");
+  font-weight: 800;
+}
